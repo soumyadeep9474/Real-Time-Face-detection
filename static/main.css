@@ -1,0 +1,43 @@
+.body {
+    background-image: url('main.jpg'), linear-gradient(90deg, #d966ff, #ffffff);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.stream-link {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.site-title {
+    color: #d966ff;
+    font-size: 4.5em;
+    background: rgba(0, 0,0, 0.7);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 0.15em;
+}
+
+.home-link {
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Josefin Sans';
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #d966ff;
+}
+
+.button {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
